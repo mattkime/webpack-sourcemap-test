@@ -1,0 +1,25 @@
+{
+  "name": "webpack-sourcemap-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"node build",
+    "start": "node --inspect --debug-brk build/server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattkime/webpack-sourcemap-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattkime/webpack-sourcemap-test/issues"
+  },
+  "homepage": "https://github.com/mattkime/webpack-sourcemap-test#readme",
+  "dependencies": {
+    "inquirer": "^1.2.2",
+    "webpack": "^1.13.2"
+  }
+}
